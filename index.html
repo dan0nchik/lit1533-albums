@@ -8,11 +8,13 @@
 </head>
 
 <body>
-  <a-scene mindar-image="imageTargetSrc: assets/band.mind;" vr-mode-ui="enabled: false"
-    device-orientation-permission-ui="enabled: true">
+  <a-scene mindar-image="imageTargetSrc: https://cdn.glitch.global/356d0217-bf89-4597-926f-a9321ec65c0e/band.mind;"
+    vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: true">
     <a-assets>
-      <a-asset-item id="who" src="assets/who.mp4"></a-asset-item>
-      <a-asset-item id="aidar" src="assets/aidar.mp4"></a-asset-item>
+      <a-asset-item id="who" src="https://cdn.glitch.global/356d0217-bf89-4597-926f-a9321ec65c0e/who.mp4">
+      </a-asset-item>
+      <a-asset-item id="aidar" src="https://cdn.glitch.global/356d0217-bf89-4597-926f-a9321ec65c0e/aidar.mp4">
+      </a-asset-item>
     </a-assets>
 
     <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
@@ -28,8 +30,8 @@
         <a-video id="2" src="#aidar" playsinline autoplay muted webkit-playsinline width="1" height="1.7"></a-video>
       </a-plane>
     </a-entity>
-
   </a-scene>
+
 </body>
 
 </html>
