@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.4/dist/mindar-image.prod.js"></script>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/hiukim/mind-ar-js@1.1.4/dist/mindar-image-aframe.prod.js"></script>
+  </head>
+  <body>
+    <a-scene mindar-image="imageTargetSrc: https://cdn.glitch.global/356d0217-bf89-4597-926f-a9321ec65c0e/band.mind;" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: true">
+      <a-assets>
+        <a-asset-item id="who" src="https://in.lit.msu.ru/media/Ulysses/oleg.itskovich/2022/30__Переменные_и_нестационарные_звёзды.mp4"></a-asset-item>
+        <a-asset-item id="aidar" src="https://in.lit.msu.ru/media/Ulysses/oleg.itskovich/2022/28__Определение_массы_звёзд__Двойные_звёзды.mp4"></a-asset-item>
+      </a-assets>
+      
+      <a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
+      
+      <a-entity mindar-image-target="targetIndex: 1">
+        <a-plane width="1" height="1.7">
+          <a-video
+                   id = "1"
+                   src="#who" 
+                   playsinline
+                   autoplay
+                   webkit-playsinline
+                   width="1" height="1.7"></a-video>
+        </a-plane>
+      
+      </a-entity>
+      <a-entity mindar-image-target="targetIndex: 0">
+        <a-plane width="1" height="1.7">
+          <a-video
+                   id = "2"
+                   src="#aidar" 
+                   playsinline
+                   autoplay
+                   webkit-playsinline
+                   width="1" height="1.7"></a-video>
+        </a-plane>
+      </a-entity>
+    
+    </a-scene>
+  </body>
+</html>
