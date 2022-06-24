@@ -1,4 +1,5 @@
-# Добро пожаловать!
-# Каждый QR - половина альбома. Сканируйте по очереди!
-![QR1](https://raw.githubusercontent.com/dan0nchik/lit1533-albums/main/BD6C3267-C693-430D-A012-9BEA8133127A.jpeg)
-![QR2](https://raw.githubusercontent.com/dan0nchik/lit1533-albums/main/CD7ACABD-761F-475B-8B59-004CD2AF8E20.jpeg)
+# Нажмите на одну из ссылок, чтобы скачать приложение.
+# Затем нажмите на ссылку ещё раз и наведите камеру на фото в альбоме
+# Если видео не проигрывается, нажмите на другую ссылку
+# https://go.mmrs.me/?cloud=0&qr=111/2022/id0000175673_c9c
+# https://go.mmrs.me/?cloud=0&qr=111/2022/id0000175687_c2e
